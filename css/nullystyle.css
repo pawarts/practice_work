@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1C1333;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+
+}
+
+.screen{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.title_page{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.subtitle_page{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.regular_title{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+.regular_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.card_title{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.card_subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}

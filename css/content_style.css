@@ -1,0 +1,228 @@
+/* General styles for content screens */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.subtitle_page-wrapper{
+    text-align: center;
+}
+
+.card_items{
+    display: flex;
+    justify-content: center;
+}
+
+.card_item{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fullstack screen styles*/
+
+.fullstack_screen{
+    padding-top: 59px;
+}
+
+.fullstack_screen .subtitle_page-wrapper .subtitle_page{
+    max-width: 683px;
+}
+
+.fullstack_screen .card_items{
+    margin-top: 122px;
+}
+
+.fullstack_screen .card_items .card_item{
+    text-align: justify;
+}
+
+.fullstack_screen .card_items .card_item .card_title{
+    margin: 13px 0 18px 0;
+}
+
+.fullstack_screen .card_items .front_card{
+    max-width: 225px;
+    margin-right: 96px;
+}
+
+.fullstack_screen .card_items .front_card .card_item-img{
+    width: 225px;
+    height: 225px;
+}
+
+.fullstack_screen .card_items .back_card{
+    max-width: 338px;
+}
+
+.fullstack_screen .card_items .back_card .card_item-img{
+    width: 338px;
+    height: 225px;
+}
+
+
+/* Frontend screen styles */
+
+.front_screen{
+    padding-top: 235px;
+}
+
+.front_screen .subtitle_page-wrapper .subtitle_page{
+    max-width: 700px;
+}
+
+.subscreen .regular_title{
+    margin: 112px 0 74px 0;
+}
+
+/* Frontend language styles */
+
+.front_screen .card_items .card_item{
+    max-width: 190px;
+    margin-right: 89px;
+    text-align: justify;
+}
+
+.front_screen .card_items .card_item .card_title{
+    margin: 20px 0;
+}
+
+.front_screen .card_items .card_item .card_item-img{
+    width: 190px;
+    height: 190px;
+}
+
+.front_screen .card_items .card_item:last-child{
+    margin-right: 0;
+}
+
+.front_screen .card_items .card_item-css{
+    max-width: 260px;
+}
+
+.front_screen .card_items .card_item-js{
+    max-width: 262px;
+}
+
+/* Frontend how to discover styles */
+
+.front_screen .discover .card_items{
+    flex-direction: column;
+    align-items: center;
+}
+
+.front_screen .discover .card_items .card_item{
+    padding: 23px 30px;
+    margin: 0 0 22px 0;
+    border-radius: 10px;
+    min-width: 630px;
+    background: #FFF4F4;
+    flex-direction: row;
+}
+
+.front_screen .discover .card_items .card_item:nth-child(0n + 2){background: #F4FFF5;}
+.front_screen .discover .card_items .card_item:nth-child(0n + 3){background: #FFFBF4;}
+
+
+.front_screen .discover .card_items .card_item .card_item-img{
+    min-width: 110px;
+    margin-right: 190px;
+}
+
+.front_screen .discover .card_items .card_item .titles_card-wrap{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front_screen .discover .card_items .card_item .card_item-img{
+    width: 110px;
+    height: 110px;
+}
+
+.front_screen .discover .card_items .card_item .card_item-img .titles_card-wrap .card_subtitle{
+    max-width: 270px;
+}
+
+/* Backend screen styles */
+
+.back_screen .title_page{
+    margin-top: 166px;
+}
+
+.back_screen .subtitle_page-wrapper .subtitle_page{
+    max-width: 460px;
+}
+
+
+.subscreen .regular_title{
+    margin: 119px 0 99px 0;
+}
+
+.back_screen .card_items .card_item{
+    margin-right: 170px;
+}
+
+.back_screen .card_items .card_item:last-child{
+    margin-right: 0;
+}
+
+.back_screen .card_items .card_item .card_title{
+    margin-top: 20px;
+}
+
+/* Helpful screen style */
+
+.helpful_screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.helpful_screen .title_page{
+    padding-top: 205px;
+}
+
+.helpful_screen .list-wrapper{
+    max-width: 910px;
+    margin-top: 100px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.helpful_screen .list-wrapper .help_items{
+    margin-right: 95px;
+    margin-bottom: 69px;
+}
+
+.helpful_screen .list-wrapper .help_items .regular_title{
+    margin-bottom: 17px;
+}
+
+.helpful_screen .list-wrapper .help_items .help_item{
+    padding-left: 20px;
+}
+
+.helpful_screen .list-wrapper .help_items .help_item .link_item{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+}
+
+.helpful_screen .list-wrapper .help_items .help_item .link_item::before{
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: -20px;
+    height: 5px;
+    width: 5px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.helpful_screen .list-wrapper .help_items .regular_title{
+    text-align: left;
+}
